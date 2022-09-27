@@ -1,14 +1,26 @@
 import { Fragment } from "react";
 import CarouselSlides from "../UI/Carousel";
 import WhatWeDo from "./WhatWeDo";
+import Map from "./Map";
+import MainFooter from "../Headers/MainFooter";
 
 const LandingPage = () => {
     return (
         <div>
             <div className="grid v-screen place-items-center p-7 mt-10">
-                <h1 className="text-2xl md:text-6xl tracking-wider text-black font-semibold dark:text-white">
-                    Z.A. Engineering Works
+                <h1 className="text-4xl md:text-6xl tracking-wider text-black font-semibold dark:text-white">
+                    Z.A ENGINEERING
                 </h1>
+                <div className="mt-3 text-lg dark:text-white text-center">
+                    <p>
+                        <span className="font-bold underline text-2xl">
+                            Riyaz Ghasia
+                        </span>
+                    </p>
+                    <span>📱9227903251</span>
+                    <span> ✉️riyazghasia@gmail.com</span>
+                </div>
+                <hr class="mt-2 w-full h-px bg-gray-200 border-0 dark:bg-gray-700"></hr>
             </div>
 
             <div>
@@ -20,15 +32,10 @@ const LandingPage = () => {
             </div>
 
             <div>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d929.9953419827407!2d72.83464124982163!3d21.192899108136004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f001c8dbb7f%3A0x42522e08ee353d13!2sZ%20A%20ENGINEERING%20WORKS!5e0!3m2!1sen!2sin!4v1664290589254!5m2!1sen!2sin"
-                    width="1000"
-                    height="250"
-                    style={{ border: "0" }}
-                    allowfullscreen=""
-                    loading="lazy"
-                />
+                <Map />
             </div>
+
+            <MainFooter />
         </div>
     );
 };

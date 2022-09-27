@@ -3,8 +3,10 @@ import { Fragment } from "react";
 const WhatWeDo = (props) => {
     return (
         <Fragment>
-            <h1 className="text-2xl md:text-6xl text-center md:mt-20">
-                <span className="bg-yellow-400 px-5 rounded-2xl">About Us</span>
+            <h1 className="text-3xl md:text-6xl text-center md:mt-20">
+                <span className="bg-yellow-400 px-5 rounded-2xl">
+                    Services & Works
+                </span>
             </h1>
             <div className="grid md:grid-cols-2 md:mt-10 mb-5">
                 <div className="px-10 py-5 md:py-20">
