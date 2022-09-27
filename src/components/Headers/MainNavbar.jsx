@@ -36,9 +36,6 @@ const MainNavbar = () => {
                     </Navbar.Link>
                     <Navbar.Link href="/navbars">About Us</Navbar.Link>
                     <Navbar.Link href="/navbars">Services</Navbar.Link>
-                    <Navbar.Link href="/navbars">
-                        List of Machineries
-                    </Navbar.Link>
                     <Navbar.Link href="/navbars">Gallery</Navbar.Link>
                     <Navbar.Link href="/navbars">Contact Us</Navbar.Link>
                 </Navbar.Collapse>
