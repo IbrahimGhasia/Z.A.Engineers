@@ -3,8 +3,10 @@ import { Fragment } from "react";
 const Map = (props) => {
     return (
         <Fragment>
-            <h1 className="text-2xl md:text-6xl text-center md:mt-20">
-                <span className="bg-yellow-400 px-5 rounded-2xl">Location</span>
+            <h1 className="text-3xl md:text-6xl text-center md:mt-20">
+                <span className="bg-sky-500 dark:bg-yellow-400 px-5 rounded-2xl">
+                    Location
+                </span>
             </h1>
             <div className="m-5 md:m-10">
                 <iframe

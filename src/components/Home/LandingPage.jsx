@@ -1,14 +1,13 @@
-import { Fragment } from "react";
 import CarouselSlides from "../UI/Carousel";
-import WhatWeDo from "./WhatWeDo";
 import Map from "./Map";
 import MainFooter from "../Headers/MainFooter";
+import Services_Works from "./Services_Works";
 
 const LandingPage = () => {
     return (
         <div>
-            <div className="grid v-screen place-items-center p-7 mt-10">
-                <h1 className="text-4xl md:text-6xl tracking-wider text-black font-semibold dark:text-white">
+            <div className="grid v-screen place-items-center p-7 md:mt-10">
+                <h1 className="text-4xl md:text-7xl tracking-wider text-black font-semibold dark:text-white">
                     Z.A ENGINEERING
                 </h1>
                 <div className="mt-3 text-lg dark:text-white text-center">
@@ -28,7 +27,7 @@ const LandingPage = () => {
             </div>
 
             <div className="mt-10">
-                <WhatWeDo />
+                <Services_Works />
             </div>
 
             <div>
